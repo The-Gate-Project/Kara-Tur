@@ -1,0 +1,16 @@
+IF
+	Global("KTQuest","AR2300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ktmonk01",[1316.2194],12)
+                CreateCreature("ktmonk02",[1309.2272],12)
+                CreateCreature("ktmonk02",[1382.2138],12)
+                SetGlobal("KTQuest","AR2300",1)
+END
+
+IF
+	PartyHasItem("KTRedB")
+THEN
+	RESPONSE #100
+                SetGlobal("KTQuest","AR2300",5)
+END

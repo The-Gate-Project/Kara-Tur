@@ -1,0 +1,40 @@
+IF
+	PartyHasItem("KTSnow")
+	Global("KTBagOfRed","GLOBAL",0)
+THEN
+	RESPONSE #100
+                SetGlobal("KTBagOfRed","GLOBAL",1)
+		ActionOverride("Container1",CreateItem("KTRedB",0,0,0))
+		Continue()
+END
+
+
+IF
+	PartyHasItem("KTSnow")
+	Global("KTSiren","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("KTSuc01",[1211.1519],10)
+		CreateCreature("KTGolem",[1207.1647],4)
+		SetGlobal("KTSiren","GLOBAL",1)
+END
+
+IF
+	Global("KTsiren","GLOBAL",2)
+THEN
+	RESPONSE #100
+		CreateCreature("KTWiz01",[793.1423],10) // Cult Wizard
+		CreateCreature("KTWiz02",[987.1750],10) // Cult Wizard
+		CreateCreature("KTWiz03",[940.1927],10) // Cult Wizard
+		CreateCreature("KTAss01",[1210.1685],10) // Cult Assassin
+		CreateCreature("KTAss02",[1135.1553],10) // Cult Assassin
+		CreateCreature("KTAss03",[1003.1428],10) // Cult Assassin
+		CreateCreature("KTArch01",[958.1265],14) // Cult Archer
+		CreateCreature("KTArch02",[990.1193],14) // Cult Archer
+		CreateCreature("KTArch03",[1080.1170],14) // Cult Archer
+		CreateCreature("KTSiren1",[1281.1480],10)
+		CreateCreature("KTSiren2",[1199.1397],10)
+		CreateCreature("KTSiren3",[1342.1574],10)
+		SetGlobal("KTQuest","GLOBAL",5)
+		SetGlobal("KTSiren","GLOBAL",3)
+END
