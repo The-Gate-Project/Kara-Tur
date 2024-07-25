@@ -1,0 +1,15 @@
+IF
+	See([PC])
+	Global("KTSiren","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialog("KTSDLG",[PC])
+END
+
+IF
+	GlobalGT("KTsiren","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+

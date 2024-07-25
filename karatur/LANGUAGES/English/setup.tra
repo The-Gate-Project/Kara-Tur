@@ -1,0 +1,549 @@
+@300  = ~T'Was a Slow Boat from Kara-Tur~
+@301  = ~Seini Korasu~
+@302  = ~Kara-Tur Monk~
+@303  = ~Alura~
+@304  = ~Sirene of Alura~
+@305  = ~Sailor Mage of Alura~
+@306  = ~Sailor Rogue of Alura~
+@307  = ~Sailor Archer of Alura~
+@308  = ~Golem of Alura~
+@309  = ~Ice Crystal~
+@310  = ~Ice Crystal:
+  
+This strange item was given to you by an equally strange man named Seini Korasu. It is cold to the touch, but does not seem to absorb any of the warmth around it. While you cannot ascertain any usefulness to the item, Seini assures you that it is needed to retrieve the illustrious "Bag of Red" he is so adamantly in great desire of. It resembles a large snowflake made of ice blue crystal~
+@311  = ~Bag of Red~
+@312  = ~Red Bag~
+@313  = ~Red Bag:
+  
+This must be the "Bag of Red" that Seini Korasu asked you to retrieve for him. Looking at the item it seems unreasonably heavy, but in proximity of the Ice Crystal, it becomes quite light and easy to move. You should return this to Seini Korasu as soon as possible.~
+@314  = ~Belt~
+@315  = ~Sash of the Initiate~
+@316  = ~Sash of the Initiate:
+  
+This sash is indicative of those worn by Mages from the Eastern Relams. It grants the wearer a level of higher learning, and an improved sense of fortitude
+
+Statistics:
+Adds +1 to Intelligence
+Adds +5 Hitpoints
+Weight: 2~
+@317  = ~Belt of the Wise~
+@318  = ~Belt of the Wise:
+
+This belt benifits it's wearer by imparting additional Wisdom to the wearer, in addition it allows the absorbtion of some of the electrical damage focused on the wearer.
+
+Statistics:
+Adds +1 to Wisdom
+Reduces Electrical Damage by 25%
+Weight: 2~
+@319  = ~Belt of Luck~
+@320  = ~Belt of Luck:
+
+This belt works to insure that one is able to have an edge against any situation with an added sense of luck. The wearer of thsi belt aslo gains more insight into magical items and their workings.
+
+Statistics:
+Adds +10 to Lore
+Adds +5 to Luck
+Weight: 2~
+@321  = ~Boots~
+@322  = ~Tabi Boots~
+@323  = ~Tabi Boots:
+  
+These boots are granted to Ninja's throughout Kara Tur. They benefit the wearer in stealth and blending into the environment. If the wearer can backstab they also allow for an extra multiplier to the backstab modifier.
+
+Such benefits have a cost.
+
+Statistics:
+Adds +20% Move Silently
+Adds +20% Hide
++ 1 Step in Backstab Modifier
+-1 Constitution
+Weight: 4~
+@324  = ~Bracers~
+@325  = ~Gloves of Missile Snaring~
+@326  = ~Gloves of Missile Snaring:
+  
+Gloves of Missile Snaring
+Foik Morur demonstrated the effectiveness of these gloves at a community fair near Beregost several years back. He paid a local Archer to fire arrows at him. As the arrows approached, Foik's hands would move of their own accord, either knocking the arrow away or catching it. He earned more than a few pieces of gold for his troubles, and these earnings attracted some shadowy figures to Foik's tent that evening. The next morning, Foik was found dead and the gloves missing.
+
+STATISTICS
+
+Armor Class: +2 vs. missile attacks
+
+Weight: 2~
+@327  = ~Fists of Poison~
+@328  = ~Fist of Poison:
+  
+These gloves are mearly wraps around one's fists. These particular wraps are intertwinined with poisoned glass and adds poision damage to creatures.
+
+STATISTICS
+
++3 Posion damage
+
+Weight: 2~
+@329  = ~Fists of Fire~
+@330  = ~Fist of Fire:
+  
+These gloves are mearly wraps around one's fists. These particular wraps are intertwinined with magical embers and add fire damage to creatures.
+
+STATISTICS
+
++3 Fire damage
+
+Weight: 2~
+@331  = ~Fists of Shock~
+@332  = ~Fist of Shock:
+  
+These gloves are mearly wraps around one's fists. These particular wraps are intertwinined with magical energy globes and add energy damage to creatures.
+
+STATISTICS
+
++3 Electrical damage
+
+Weight: 2~
+@333  = ~Claw~
+@334  = ~Masterwork Claw~
+@335  = ~Masterwork Claw:
+  
+Claw weapons are used often in Kara Tur by Ninja to inflict great damage while not showing a weapon in hand. These claw weapons inflict Piercing, Slashing and Blunt damage in one weapon, as the claws penetrate, the sweeping movement causes slashing, and as the fist comes into contact with the opponent, blunt damage is inflicted. This item was Masterworked and therefore causes an additional point of damage.
+
+STATISTICS:
+
+1d2 Piercing Damage
+1d2 Slashing Damage
+1d2 Blunt Damage
+3d2 Damage total
++1 Damage Masterwork
+Weight: 2~
+@336  = ~Claw +1~
+@337  = ~Claw +1:
+  
+Claw weapons are used often in Kara Tur by Ninja to inflict great damage while not showing a weapon in hand. These claw weapons inflict Piercing, Slashing and Blunt damage in one weapon, as the claws penetrate, the sweeping movement causes slashing, and as the fist comes into contact with the opponent, blunt damage is inflicted.
+
+STATISTICS:
+
+1d2+1 Piercing Damage
+1d2+1 Slashing Damage
+1d2+1 Blunt Damage
+3d2+3 Damage total
++1 Thac0
+Weight: 2~
+@338  = ~Garb~
+@339  = ~Monk Grab of Obedience~
+@340  = ~Monk Garb of Obedience:
+
+Monk Garb
+The simplest of clothing created by weaving silken fabrics intertwined with the Monk's own Chi power to protect the wearer on his travels.
+
+STATISTICS:
+Armor Class: -1
+Requires 12 Wisdom
+Weight:4~
+@341  = ~Monk Grab of the Robe Bearer~
+@342  = ~Monk Garb of the Robe Bearer:
+
+Monk Garb
+The simplest of clothing created by weaving silken fabrics intertwined with the Monk's own Chi power to protect the wearer on his travels.
+
+STATISTICS:
+Armor Class: -2
+Requires 14 Wisdom
+Weight:4~
+@343  = ~Monk Grab of the Cross Bearer~
+@344  = ~Monk Garb of the Cross Bearer:
+
+Monk Garb
+The simplest of clothing created by weaving silken fabrics intertwined with the Monk's own Chi power to protect the wearer on his travels.
+
+STATISTICS:
+Armor Class: -3
+Requires 16 Wisdom
+Weight:4~
+@345  = ~Monk Grab of the Great Schema~
+@346  = ~Monk Garb of the Great Schema:
+
+Monk Garb
+The simplest of clothing created by weaving silken fabrics intertwined with the Monk's own Chi power to protect the wearer on his travels.
+
+STATISTICS:
+Armor Class: -4
+Requires 18 Wisdom
+Weight:4~
+@347  = ~Monk Grab of the Elder~
+@348  = ~Monk Garb of the Elder:
+
+Monk Garb
+The simplest of clothing created by weaving silken fabrics intertwined with the Monk's own Chi power to protect the wearer on his travels.
+
+STATISTICS:
+Armor Class: -5
+Requires 20 Wisdom
+Weight:4~
+@349  = ~Polearm~
+@350  = ~Masterwork Kwan Dao~
+@351  = ~Masterwork Kwan Dao:
+
+This is the polearm of choice by most Karaturan Foot Soldiers. The bite of this weapon is strong, and can take a rider off his mount in one strike.
+
+STATISTICS:
+Damage 1d12
++1 Damage Masterwork
+Weight:4~
+@352  = ~+1 Kwan Dao~
+@353  = ~+1 Kwan Dao:
+
+This is the polearm of choice by most Karaturan Foot Soldiers. The bite of this weapon is strong, and can take a rider off his mount in one strike.
+
+STATISTICS:
+Damage 1d12+1
+Thac0 +1
+Weight:4~
+@354  = ~Shuriken~
+@355  = ~Masterwork Shuriken~
+@356  = ~Masterwork Shuriken
+
+A shuriken, "sword hidden in the hand" is a traditional Kara-Tur concealed weapon that is generally used for throwing. They are sharpened hand-held blades made from a variety of everyday items, such as needles, nails, and knives, as well as coins, washers, and other flat plates of metal. Shuriken is the name given to any small-bladed object that is traditionally used to indicate the well-known "throwing star".
+
+
+STATISTICS:
+
+THAC0: +0
+Damage:  1D2+1 (Masterwork)
+Damage type:  Piercing
+Weight:  1
+Speed Factor: 0
+Proficiency Type: Dart
+Type:  Thrown~
+@357  = ~Shuriken +1~
+@358  = ~Shuriken +1
+
+A shuriken, "sword hidden in the hand" is a traditional Kara-Tur concealed weapon that is generally used for throwing. They are sharpened hand-held blades made from a variety of everyday items, such as needles, nails, and knives, as well as coins, washers, and other flat plates of metal. Shuriken is the name given to any small-bladed object that is traditionally used to indicate the well-known "throwing star".
+
+
+STATISTICS:
+
+THAC0: +1
+Damage:  1D2+1 (Masterwork)
+Damage type:  Piercing
+Weight:  1
+Speed Factor: 0
+Proficiency Type: Dart
+Type:  Thrown~
+@359  = ~Pudao~
+@360  = ~Masterwok Pudao~
+@361  = ~Masterwork Pudao:
+
+One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+THAC0: +0
+Damage: 1d8 (piercing)
++1 Damage Masterwork
+Speed Factor: 4
+Proficiency Type: Spear
+Type: Two-handed
+Requires: 5 Strength
+Weight: 3~
+@362  = ~Pudao +1~
+@363  = ~Pudao +1
+
+One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d8 (piercing)
++1 Damage
+Speed Factor: 4
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+5 Strength
+Weight: 3~
+@364  = ~Bo Staff~
+@365  = ~Masterwork Bo Staff~
+@366  = ~Masterwork Bo Staff
+
+The simplest and humblest of staff weapons, the Bo Staff is a length of wood ranging six to nine feet in length. Masterwork Bo Staffs are made of stout oak and are shod with metal at both ends. The Bo Staff must be wielded with both hands.
+
+STATISTICS:
+
+Damage: 1d10 (crushing)
++1 Damage
+Speed Factor: 6
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires: 5 Strength
+Weight: 4~
+@367  = ~Bo Staff +1~
+@368  = ~Bo Staff +1
+
+The simplest and humblest of staff weapons, the Bo Staff is a length of wood ranging six to nine feet in length. Masterwork Bo Staffs are made of stout oak and are shod with metal at both ends. The Bo Staff must be wielded with both hands.
+
+STATISTICS:
+
+Damage: 1d10 (crushing)
++1 Thac0
++1 Damage
+Speed Factor: 6
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires: 5 Strength
+Weight: 4~
+@369  = ~Katana~
+@370  = ~Masterwork Katana~
+@371  = ~Masterwork Katana
+
+The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage: 1d10 (slashing)
++1 Damage
+Speed Factor: 4
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+6 Strength
+Weight: 6~
+@372  = ~Katana +1~
+@373  = ~Katana +1
+
+The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage: 1d10 (slashing)
++1 Thac0
++1 Damage
+Speed Factor: 4
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+6 Strength
+Weight: 6~
+@374  = ~Wakizashi~
+@375  = ~Masterwork Wakizashi~
+@376  = ~Masterworked Wakizashi
+
+The wakizashi, or companion sword, is extremely important to samurai. It is worn at all times, even indoors, and is near the samurai when he sleeps at night. As finely made as the katana, the wakizashi, a shorter sword with a length between twelve and twenty-four inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS
+
+Damage: 1d8 (piercing)
++1 Damage
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninjato
+Type: One-handed
+Requires:5 Strength
+Weight: 3~
+@377  = ~Wakizashi +1~
+@378  = ~Wakizashi +1
+
+The wakizashi, or companion sword, is extremely important to samurai. It is worn at all times, even indoors, and is near the samurai when he sleeps at night. As finely made as the katana, the wakizashi, a shorter sword with a length between twelve and twenty-four inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS
+
+Damage: 1d8 (piercing)
++1 Thac0
++1 Damage
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninjato
+Type: One-handed
+Requires:5 Strength
+Weight: 3~
+@379  = ~Ninjato~
+@380  = ~Masterwork Ninjato~
+@381  = ~Masterworked Ninjato
+
+The sword of the ninja, the ninjato, is of lower quality than other Kara-Turan blades such as the katana. The ninjato is short with a straight blade, making it ideal for subterfuge. The ninjato is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai use.
+
+STATISTICS
+
+Damage: 1d8 (slashing)
++1 Damage
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninjato
+Type: One-handed
+Requires:6 Strength
+Weight: 5~
+@382  = ~+1 Ninjato~
+@383  = ~+1 Ninjato
+
+The sword of the ninja, the ninjato, is of lower quality than other Kara-Turan blades such as the katana. The ninjato is short with a straight blade, making it ideal for subterfuge. The ninjato is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai use.
+
+STATISTICS
+
+Damage: 1d8 (slashing)
++1 Thac0
++1 Damage
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninjato
+Type: One-handed
+Requires:6 Strength
+Weight: 5~
+@384  = ~No-Dachi~
+@385  = ~Masterwork No-Dachi~
+@386  = ~Masterwork No-Dachi
+
+The No-Dachi sword is a derivative of the Katana. Karaturan Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the Katana, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of No-Dachi swords is cleaving mounted knights and breaking up pike formations. This one is particularly good at its job as it has been enchanced by masterworking the item.
+
+STATISTICS:
+
+Damage: 2d8 (slashing)
++1 Damage
+Speed Factor: 3
+Proficiency Type: Katana
+Type: Two-handed
+Requires: 14 Strength
+Weight: 12~
+@387  = ~+1 No-Dachi~
+@388  = ~+1 No-Dachi
+
+The No-Dachi sword is a derivative of the Katana. Karaturan Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the Katana, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of No-Dachi swords is cleaving mounted knights and breaking up pike formations. This one is particularly good at its job as it has been enchanted with a few magical properties.
+
+STATISTICS:
+
+Damage: 2d8 (slashing)
++1 Thac0
++1 Damage
+Speed Factor: 3
+Proficiency Type: Katana
+Type: Two-handed
+Requires: 14 Strength
+Weight: 12~
+@389  = ~Masterwork Shuriken
+
+A shuriken, "sword hidden in the hand" is a traditional Kara-Tur concealed weapon that is generally used for throwing. They are sharpened hand-held blades made from a variety of everyday items, such as needles, nails, and knives, as well as coins, washers, and other flat plates of metal. Shuriken is the name given to any small-bladed object that is traditionally used to indicate the well-known "throwing star".
+
+
+STATISTICS:
+
+THAC0: +0
+Damage:  1D2+1
+Damage type:  Piercing
+Weight:  1
+Speed Factor: 0
+Proficiency Type: Dart
+Type:  Thrown~
+@390  = ~Shuriken +1
+
+A shuriken, "sword hidden in the hand" is a traditional Kara-Tur concealed weapon that is generally used for throwing. They are sharpened hand-held blades made from a variety of everyday items, such as needles, nails, and knives, as well as coins, washers, and other flat plates of metal. Shuriken is the name given to any small-bladed object that is traditionally used to indicate the well-known "throwing star".
+
+
+STATISTICS:
+
+THAC0: +1
+Damage:  1D2+1
+Damage type:  Piercing
+Weight:  1
+Speed Factor: 0
+Proficiency Type: Dart
+Type:  Thrown~
+@391  = ~Trident of Impaling~
+@392  = ~Trident of Impaling
+
+This spear has a triple pronged head known as a trident secured to it's end. The sharp nature of this item allows it to cause critical damage more often than other of it's type.
+
+SPECIAL:
+Critical range for this weapon is 17-20.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d10 (piercing)
++2 Damage
+Speed Factor: 4
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+5 Strength
+Weight: 3~
+@393  = ~Ronin's Bane~
+@394  = ~Ronin's Bane
+
+This No-Dachi was used by a famous Samurai to hunt down Ronin from his order. The sword offers a strong offense as well as additional defensive ability.
+
+SPECIAL:
+-1 AC while equipped
+
+STATISTICS:
+
+Damage: 2d8 (slashing)
++2 Thac0
++2 Damage
+Speed Factor: 3
+Proficiency Type: Katana
+Type: Two-handed
+Requires: 14 Strength
+Weight: 12~
+@395  = ~Shuriken of the Shou Ninja~
+@396  = ~Shuriken of the Shou Ninja
+
+How this rare item made it from Kara-Tur to the Sword Coast is quite a mystery. What is known however, is that these rare Shurikens are given to Shou Ninja's for special missions. Even an average person can throw these projectiles with great accuracy and speed.
+
+SPECIAL:
+
+- This Shuriken will return to the hand of it's owner.
+- Weilder can throw this weapon 3 times a round while equipped.
+- Adds Strength Bonus (if any) to damage.
+- 3% chance to stun the target for 5 seconds
+
+STATISTICS:
+
+THAC0: +2
+Damage:  1D2+4
+Damage type:  Piercing
+Weight:  1
+Speed Factor: 0
+Proficiency Type: Dart
+Type:  Thrown~
+@397  = ~Stone Eye~
+@398  = ~Left Eye of Genzou~
+@399  = ~Left Eye of Genzou
+
+Genzou was born blind, ridiculed and beaten as a child and eventually abandoned for dead. He was found by Monks from a nearby Monastary, who took young Genzou in and trained him. He excelled in fighting blindly, and eventually became the lead trainer for all Monks in his order. Legend has it that this Stone Eye is actually the real left eye of Genzou. When worn about the head it will cause blindness, yet through trust and training the vision of the wearer becomes greater than before. Training in the martial arts and spending blood will unlock greater abilities. It is rumored that if the Right Eye and Left Eye are worn together that the wearer would gain all of Genzou's legendary abilities.
+
+Rank I Statistics:
+
+Blindness -4 Thac0, +4 AC, Reduced Vision and Movement Rate
+-1 Dexterity
+Protection from all forms of Gaze Attacks~
+@400  = ~Left Eye of Genzou
+
+Genzou was born blind, ridiculed and beaten as a child and eventually abandoned for dead. He was found by Monks from a nearby Monastary, who took young Genzou in and trained him. He excelled in fighting blindly, and eventually became the lead trainer for all Monks in his order. Legend has it that this Stone Eye is actually the real left eye of Genzou. When worn about the head it will cause blindness, yet through trust and training the vision of the wearer becomes greater than before. Training in the martial arts and spending blood will unlock greater abilities. It is rumored that if the Right Eye and Left Eye are worn together that the wearer would gain all of Genzou's legendary abilities.
+
+Rank II Statistics:
+
+Lesser Blindness -2 Thac0, +2 AC
+Protection from all forms of Gaze Attacks
+Gains Wondering Eye 1/Day (Wizard Eye)~
+@401  = ~Left Eye of Genzou
+
+Genzou was born blind, ridiculed and beaten as a child and eventually abandoned for dead. He was found by Monks from a nearby Monastary, who took young Genzou in and trained him. He excelled in fighting blindly, and eventually became the lead trainer for all Monks in his order. Legend has it that this Stone Eye is actually the real left eye of Genzou. When worn about the head it will cause blindness, yet through trust and training the vision of the wearer becomes greater than before. Training in the martial arts and spending blood will unlock greater abilities. It is rumored that if the Right Eye and Left Eye are worn together that the wearer would gain all of Genzou's legendary abilities.
+
+Rank III Statistics:
+
+Blindsight
++1 Dexterity
+Protection from all forms of Gaze Attacks
+Gains Wondering Eye 1/Day (Wizard Eye)
+Gains Blind Strike 1/Day (Every hit Crits for 5 seconds)~
+@402  = ~Left Eye of Genzou
+
+Genzou was born blind, ridiculed and beaten as a child and eventually abandoned for dead. He was found by Monks from a nearby Monastary, who took young Genzou in and trained him. He excelled in fighting blindly, and eventually became the lead trainer for all Monks in his order. Legend has it that this Stone Eye is actually the real left eye of Genzou. When worn about the head it will cause blindness, yet through trust and training the vision of the wearer becomes greater than before. Training in the martial arts and spending blood will unlock greater abilities. It is rumored that if the Right Eye and Left Eye are worn together that the wearer would gain all of Genzou's legendary abilities.
+
+Rank IV Statistics:
+
+Blindsight
+Invravision
++1 Dexterity
++1 Wisdom
+Protection from all forms of Gaze Attacks
+Gains Wondering Eye 2/Day (Wizard Eye)
+Gains Blind Strike 2/Day (Every hit Crits for 5 seconds)~
+@403  = ~Left Eye of Genzou I~
+@404  = ~Left Eye of Genzou II~
+@405  = ~Left Eye of Genzou III~
+@406  = ~Kara-Tur Store~
+@407  = ~Store of the Meager Three~
