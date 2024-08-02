@@ -7,9 +7,10 @@ THEN
 END
 
 IF
-	GlobalGT("KTsiren","GLOBAL",1)
+	See([PC])	
+	GlobalGT("KTSiren","GLOBAL",1)
 THEN
 	RESPONSE #100
 		Enemy()
+		Attack([PC])
 END
-
