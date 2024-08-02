@@ -17,14 +17,6 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	HaveSpell(WIZARD_DIRE_CHARM)  // SPWI316.SPL (Charme néfaste)
-THEN
-	RESPONSE #100
-		Spell(NearestEnemyOf(Myself),WIZARD_DIRE_CHARM)  // SPWI316.SPL (Charme néfaste)
-END
-
-IF
-	See(NearestEnemyOf(Myself))
 	HaveSpell(WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)  // SPWI316.SPL (Charme néfaste)
 THEN
 	RESPONSE #100
@@ -33,7 +25,17 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DIRE_CHARM)  // SPWI316.SPL (Charme néfaste)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DIRE_CHARM)  // SPWI316.SPL (Charme néfaste)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
 		Attack(NearestEnemyOf(Myself))
 END
+
+

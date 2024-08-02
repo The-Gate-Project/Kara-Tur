@@ -1,0 +1,35 @@
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+IF
+	Global("KTGOL01KTAss","LOCALS",0)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+	EquipRanged()
+	SetGlobal("KTGOL01KTAss","LOCALS",1)
+	Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	Global("KTGOL01KTAss","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Delay(5)
+THEN
+	RESPONSE #100
+	EquipMostDamagingMelee()
+	SetGlobal("KTGOL01KTAss","LOCALS",2)
+	Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
