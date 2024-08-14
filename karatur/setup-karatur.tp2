@@ -1,6 +1,9 @@
 BACKUP ~weidu_external/KaraTur/backup~
 AUTHOR ~Corsymyr~
 
+VERSION ~2.0~
+
+
 ALWAYS
 
 	ACTION_IF GAME_IS ~bgee~ BEGIN
@@ -50,6 +53,8 @@ LANGUAGE ~English~
 
 
 BEGIN @300 /* T'Was a Slow Boat from Kara-Tur */
+DESIGNATED 0
+LABEL ~Corsymyr-Kara_Tur~
 
 //Extending the Area Files
 
@@ -921,8 +926,30 @@ COPY ~KARATUR/SPL/KTHLM3.spl~ ~OVERRIDE/KTHLM3.spl~
   SAY 0x50 @397 /* Stone Eye */
   SAY 0x54 @405 /* Left Eye of Genzou III */
 
-//Copying BAM
+/* ---------------------------------------------------- *
+ *  Copy BAMs or convert them to EE  *
+ * ---------------------------------------------------- */
 
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~			// Loads function converting inventory BAMs to EE.
+	// OUTER_SPRINT file-exc ~~	// Special cases: unused inventory or description icons, and ability .bam don't need to be converted.
+	ACTION_BASH_FOR ~%MOD_FOLDER%/bam/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		ACTION_IF (~%file-exc%~ STRING_CONTAINS_REGEXP ~%BASH_FOR_RES%~ = 1) BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+				LPF ~gw_convert_inventory_bam_to_ee~ END
+			BUT_ONLY
+		END ELSE BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+		END
+	END
+END ELSE BEGIN
+	COPY ~%MOD_FOLDER%/bam~ ~override~
+END
+
+//Copying BAM
+/*
 COPY ~KARATUR/BAM/ion1b.bam~ ~OVERRIDE/ion1b.bam~
 COPY ~KARATUR/BAM/ion2b.bam~ ~OVERRIDE/ion2b.bam~
 COPY ~KARATUR/BAM/kteye.bam~ ~OVERRIDE/kteye.bam~
@@ -946,7 +973,7 @@ COPY ~KARATUR/BAM/mnshur03.bam~ ~OVERRIDE/mnshur03.bam~
 COPY ~KARATUR/BAM/mnshur04.bam~ ~OVERRIDE/mnshur04.bam~
 COPY ~KARATUR/BAM/KTsw2r.bam~ ~OVERRIDE/KTsw2r.bam~
 COPY ~KARATUR/BAM/KTsp2r.bam~ ~OVERRIDE/KTsp2r.bam~
-
+*/
 //Copying VVC
 
 COPY ~KARATUR/VVC/ion1b.vvc~ ~OVERRIDE/ion1b.vvc~
