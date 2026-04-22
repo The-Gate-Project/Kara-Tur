@@ -21,6 +21,20 @@ ALWAYS
 
     LAF autotra_workaround END
 
+// Special BGT (created by JohnBob for BloodAndFaith, part 1 of 2)
+  ACTION_IF (GAME_IS ~bgt~ AND ~%LANGUAGE%~ STR_EQ ~polish~)  THEN BEGIN 
+
+	OUTER_SET SpecialBGT = 1
+		PRINT ~
+		SpecialBGT will proceed
+		~
+
+  END ELSE  BEGIN
+
+	OUTER_SET SpecialBGT = 0
+
+  END
+
 	ACTION_IF GAME_IS ~bgee eet~ BEGIN
 
 		ACTION_DEFINE_ARRAY KaraTur_noconvert BEGIN install	END
@@ -61,9 +75,19 @@ LANGUAGE ~Simplified Chinese~
          ~KaraTur/Languages/SChinese/setup.tra~
          ~KaraTur/Languages/SChinese/install.tra~
 
+LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~
+         ~polish~
+         ~KaraTur/Languages/polish/setup.tra~
+
 BEGIN @300 /* T'Was a Slow Boat from Kara-Tur */
 DESIGNATED 0
 LABEL ~Corsymyr-Kara_Tur~
+
+  // Special BGT (created by JohnBob for BloodAndFaith, part 2 of 2, modified for Corsymyr-Kara_Tur)
+	ACTION_IF SpecialBGT = 1 THEN BEGIN
+		COPY ~karatur/Languages/%LANGUAGE%/SpecialBGT~			~weidu_external/karatur/Languages/autotra/%LANGUAGE%~
+		LOAD_TRA ~weidu_external/karatur/Languages/autotra/%LANGUAGE%/setup.tra~
+	END
 
 //Extending the Area Files
 
@@ -243,9 +267,9 @@ COPY ~KaraTur/ITM/KTRedB.ITM~ ~override/KTRedB.itm~
   SAY 0x8 @311 /* Bag of Red */
   SAY 0xC @312 /* Red Bag */
   SAY 0x50 @311 /* Bag of Red */
-  SAY 0x54 ~Red Bag:
+  SAY 0x54 @313 /* Red Bag:
   
-This must be the @311 /* Bag of Red */ that Seini Korasu asked you to retrieve for him. Looking at the item it seems unreasonably heavy, but in proximity of the Ice Crystal, it becomes quite light and easy to move. You should return this to Seini Korasu as soon as possible.~
+This must be the "Bag of Red" that Seini Korasu asked you to retrieve for him. Looking at the item it seems unreasonably heavy, but in proximity of the Ice Crystal, it becomes quite light and easy to move. You should return this to Seini Korasu as soon as possible. */
 
 COPY ~KaraTur/ITM/KTblt01.ITM~ ~override/KTblt01.itm~
   SAY 0x8 @314 /* Belt */

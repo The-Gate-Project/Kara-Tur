@@ -1,0 +1,573 @@
+@300  = ~T'Was a Slow Boat from Kara-Tur mod do BGT, BG I EE i EET~
+@301  = ~Seini Korasu~
+@302  = ~Mnich z Kara-Tur~
+@303  = ~Alura~
+@304  = ~Syrena Alury~
+@305  = ~Mag Alury~
+@306  = ~£otrzyk Alury~
+@307  = ~£uczniczka Alury~
+@308  = ~Golem Alury~
+@309  = ~Lodowy kryszta³~
+@310  = ~Ten osobliwy przedmiot podarowa³ ci równie osobliwy mê¿czyzna imieniem Seini Korasu. Kryszta³ jest lodowaty w dotyku, lecz nie poch³ania ciep³a z otoczenia. Choæ nie widzisz dla niego ¿adnego oczywistego zastosowania, Seini zapewnia, ¿e jest niezbêdny do odzyskania s³ynnej Czerwonej torby, której tak usilnie po¿¹da. Kryszta³ przypomina du¿¹ œnie¿ynkê wykut¹ z lodowoniebieskiego kamienia.~
+@311  = ~Czerwona torba~
+@312  = ~Czerwona torba~
+@313  = ~To musi byæ Czerwona torba, o której odzyskanie prosi³ ciê Seini Korasu. Na pierwszy rzut oka wydaje siê nienaturalnie ciê¿ka, ale w pobli¿u Lodowego kryszta³u staje siê zaskakuj¹co lekka i ³atwa do przenoszenia. Nale¿y j¹ jak najszybciej zwróciæ Seiniemu Korasu.~
+@314  = ~Pas~
+@315  = ~Szarfa nowicjusza~
+@316  = ~Szarfa tego typu jest noszona przez magów ze Wschodnich Krain. Zapewnia nosz¹cemu g³êbsze zrozumienie tajemnej wiedzy oraz wiêksz¹ odpornoœæ.
+
+PARAMETRY:
+
+Specjalne:
+– Inteligencja: +1
+– Punkty ¿ycia: +5
+
+Waga: 2~
+@317  = ~Pas mêdrca~
+@318  = ~Ten pas obdarza w³aœciciela dodatkow¹ m¹droœci¹, a ponadto pozwala czêœciowo poch³aniaæ obra¿enia od elektrycznoœci.
+
+PARAMETRY:
+
+Specjalne:
+– M¹droœæ: +1
+– Obra¿enia od elektrycznoœci: -25%
+
+Waga: 2~
+@319  = ~Pas szczêœcia~
+@320  = ~Ten pas zapewnia nosz¹cemu przewagê w wielu sytuacjach dziêki zwiêkszonemu szczêœciu. Dodatkowo jego w³aœciciel zyskuje lepsze rozeznanie w naturze magicznych przedmiotów i ich dzia³aniu.
+
+PARAMETRY:
+
+Specjalne:
+– Szczêœcie: +5
+– Wiedza: +10
+
+Waga: 2~
+@321  = ~Buty~
+@322  = ~Buty tabi~
+@323  = ~Te buty nosz¹ ninja w ca³ym Kara-Tur. Pomagaj¹ w skradaniu siê i stapianiu z otoczeniem. Jeœli w³aœciciel potrafi zadawaæ cios w plecy, buty zapewniaj¹ dodatkowy stopieñ mno¿nika obra¿eñ przy takim ataku.
+
+Takie korzyœci maj¹ jednak swoj¹ cenê.
+
+PARAMETRY:
+
+Specjalne:
+– Ciche chodzenie: +20%
+– Krycie siê w cieniu: +20%
+– Mno¿nik obra¿eñ ciosu w plecy: +1
+– Kondycja: -1
+
+Waga: 4~
+@324  = ~Bransolety~
+@325  = ~Rêkawice wy³apuj¹ce pociski~
+@326  = ~Foik Morur zademonstrowa³ kilka lat temu skutecznoœæ owych rêkawic w pewnej spo³ecznoœci niedaleko Beregostu. Zap³aci³ miejscowemu ³ucznikowi, aby ten wystrzeli³ do niego kilka strza³. Gdy pocisk siê zbli¿a³, rêce Foika rusza³y siê same albo odbijaj¹c go, albo chwytaj¹c. Zarobi³ w ten sposób kilka sztuk z³ota, co œci¹gnê³o do jego namiotu kilka mrocznych postaci. Nastêpnego ranka Foika znaleziono martwego, a rêkawice zniknê³y.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +2 przeciw pociskom
+
+Waga: 2~
+@327  = ~Piêœci trucizny~
+@328  = ~Piêœæ trucizny:
+  
+Te rêkawice to jedynie banda¿e owiniête wokó³ piêœci. W ich w³ókna wpleciono zatrute od³amki szk³a, które zadaj¹ dodatkowe obra¿enia od trucizny przy ka¿dym trafieniu.
+
+PARAMETRY:
+
+Specjalne:
+– Obra¿enia od trucizny: +3
+
+Waga: 2~
+@329  = ~Piêœci ognia~
+@330  = ~Piêœæ ognia:
+  
+Te rêkawice to jedynie banda¿e owiniête wokó³ piêœci. W ich w³ókna wpleciono magiczne ¿arz¹ce siê wêgle, które zadaj¹ dodatkowe obra¿enia od ognia.
+
+PARAMETRY:
+
+Specjalne:
+– Obra¿enia od ognia: +3
+
+Waga: 2~
+@331  = ~Piêœci b³yskawic~
+@332  = ~Piêœæ b³yskawic:
+  
+Te rêkawice to jedynie banda¿e owiniête wokó³ piêœci. W ich w³ókna wpleciono magiczne kule energii, które zadaj¹ dodatkowe obra¿enia od elektrycznoœci.
+
+PARAMETRY:
+
+Specjalne:
+– Obra¿enia od elektrycznoœci: +3
+
+Waga: 2~
+@333  = ~Szpon~
+@334  = ~Mistrzowski szpon~
+@335  = ~Szpony s¹ czêsto u¿ywane w Kara-Tur przez ninja, którzy chc¹ zadawaæ powa¿ne obra¿enia, nie zdradzaj¹c, ¿e trzymaj¹ broñ w d³oni. Ten typ uzbrojenia jednoczeœnie zadaje obra¿enia k³ute, sieczne i obuchowe: szpony przebijaj¹ skórê, zamach zadaje ciêcia, a sam cios piêœci¹ powoduje obra¿enia obuchowe. Ten egzemplarz zosta³ wykonany mistrzowsko, dziêki czemu zadaje dodatkowe obra¿enia.
+
+PARAMETRY:
+
+Obra¿enia: 3k2 +1
+Typ obra¿eñ: k³ute (1k2 +1)
+Typ obra¿eñ: sieczne (1k2)
+Typ obra¿eñ: obuchowe (1k2)
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+
+Waga: 2~
+@336  = ~Szpon +1~
+@337  = ~Szpony s¹ czêsto u¿ywane w Kara-Tur przez ninja, którzy chc¹ zadawaæ powa¿ne obra¿enia, nie zdradzaj¹c, ¿e trzymaj¹ broñ w d³oni. Ten typ uzbrojenia jednoczeœnie zadaje obra¿enia k³ute, sieczne i obuchowe: szpony przebijaj¹ skórê, zamach zadaje ciêcia, a sam cios piêœci¹ powoduje obra¿enia obuchowe.
+
+PARAMETRY:
+
+Obra¿enia: 3k2 +3
+TraK0: +1
+Typ obra¿eñ: k³ute (1k2 +1)
+Typ obra¿eñ: sieczne (1k2 +1)
+Typ obra¿eñ: obuchowe (1k2 +1)
+OpóŸnienie: 2
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
+
+Waga: 2~
+@338  = ~Szata~
+@339  = ~Strój zakonny Pos³uszeñstwa~
+@340  = ~Ta szata to najprostszy strój, utkany z jedwabiu przeplecionego moc¹ chi mnicha, maj¹c¹ chroniæ go w podró¿y.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+
+Wymagania:
+– M¹droœæ: 12
+
+Waga: 4~
+@341  = ~Strój zakonny Nios¹cego Szaty~
+@342  = ~Ta szata to najprostszy strój, utkany z jedwabiu przeplecionego moc¹ chi mnicha, maj¹c¹ chroniæ go w podró¿y.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+
+Wymagania:
+– M¹droœæ: 14
+
+Waga: 4~
+@343  = ~Strój zakonny DŸwigaj¹cego Brzemiê~
+@344  = ~Ta szata to najprostszy strój, utkany z jedwabiu przeplecionego moc¹ chi mnicha, maj¹c¹ chroniæ go w podró¿y.
+
+PARAMETRY:
+
+Klasa Pancerza: -3
+
+Wymagania:
+– M¹droœæ: 16
+
+Waga: 4~
+@345  = ~Strój zakonny Wielkiego Planu~
+@346  = ~Ta szata to najprostszy strój, utkany z jedwabiu przeplecionego moc¹ chi mnicha, maj¹c¹ chroniæ go w podró¿y.
+
+PARAMETRY:
+
+Klasa Pancerza: -4
+
+Wymagania:
+– M¹droœæ: 18
+
+Waga: 4~
+@347  = ~Strój zakonny Starszego~
+@348  = ~Ta szata to najprostszy strój, utkany z jedwabiu przeplecionego moc¹ chi mnicha, maj¹c¹ chroniæ go w podró¿y.
+
+PARAMETRY:
+
+Klasa Pancerza: -5
+
+Wymagania:
+– M¹droœæ: 20
+
+Waga: 4~
+@349  = ~Broñ drzewcowa~
+@350  = ~Mistrzowskie kwan dao~
+@351  = ~To ulubiona broñ drzewcowa wiêkszoœci piechurów z Kara-Tur. Jej „ugryzienie” jest wyj¹tkowo silne, a jednym ciosem potrafi str¹ciæ jeŸdŸca z wierzchowca.
+
+PARAMETRY:
+
+Obra¿enia: 1k12 +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 9
+Rodzaj bieg³oœci: halabarda
+Typ broni: 2-rêczna
+
+Wymagania:
+– si³a: 13
+
+Waga: 15~
+@352  = ~Kwan dao +1~
+@353  = ~To ulubiona broñ drzewcowa wiêkszoœci piechurów z Kara-Tur. Jej „ugryzienie” jest wyj¹tkowo silne, a jednym ciosem potrafi str¹ciæ jeŸdŸca z wierzchowca.
+
+PARAMETRY:
+
+Obra¿enia: 1k12 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 9
+Rodzaj bieg³oœci: halabarda
+Typ broni: 2-rêczna
+
+Wymagania:
+– si³a: 13
+
+Waga: 15~
+@354  = ~Shuriken~
+@355  = ~Mistrzowski shuriken~
+@356  = ~Shuriken, „miecz ukryty w d³oni”, to tradycyjna, skryta broñ Kara-Tur, zwykle u¿ywana do rzucania. S¹ to zaostrzone, podrêczne ostrza wykonywane z rozmaitych, codziennych przedmiotów – igie³, gwoŸdzi, no¿y, monet, podk³adek i innych p³askich kawa³ków metalu. Nazwa „shuriken” odnosi siê do ka¿dego niewielkiego ostrza tego typu i najczêœciej kojarzona jest ze znan¹ „gwiazd¹ do rzucania”.
+
+PARAMETRY:
+
+Obra¿enia: 1k2 +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: strza³ka
+Typ broni: 1-rêczna
+
+Waga: 1~
+@357  = ~Shuriken +1~
+@358  = ~Shuriken, „miecz ukryty w d³oni”, to tradycyjna, skryta broñ Kara-Tur, zwykle u¿ywana do rzucania. S¹ to zaostrzone, podrêczne ostrza wykonywane z rozmaitych, codziennych przedmiotów – igie³, gwoŸdzi, no¿y, monet, podk³adek i innych p³askich kawa³ków metalu. Nazwa „shuriken” odnosi siê do ka¿dego niewielkiego ostrza tego typu i najczêœciej kojarzona jest ze znan¹ „gwiazd¹ do rzucania”.
+
+PARAMETRY:
+
+Obra¿enia: 1k2 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: strza³ka
+Typ broni: 1-rêczna
+
+Waga: 1~
+@359  = ~Pudao~
+@360  = ~Mistrzowskie pudao~
+@361  = ~To jedna z najstarszych broni, pamiêtaj¹ca najdawniejsze czasy. Pierwsze w³ócznie by³y po prostu drewnianymi dr¹gami zaostrzonymi z jednej strony. Gdy cywilizowane rasy opanowa³y obróbkê metali, groty zaczêto wykonywaæ z ¿elaza i stali. Od tego momentu kowale zaczêli eksperymentowaæ z ró¿nymi kszta³tami g³owni, co doprowadzi³o do powstania wielu odmian broni drzewcowej.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 4
+Rodzaj bieg³oœci: w³ócznia
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
+@362  = ~Pudao +1~
+@363  = ~To jedna z najstarszych broni, pamiêtaj¹ca najdawniejsze czasy. Pierwsze w³ócznie by³y po prostu drewnianymi dr¹gami zaostrzonymi z jednej strony. Gdy cywilizowane rasy opanowa³y obróbkê metali, groty zaczêto wykonywaæ z ¿elaza i stali. Od tego momentu kowale zaczêli eksperymentowaæ z ró¿nymi kszta³tami g³owni, co doprowadzi³o do powstania wielu odmian broni drzewcowej.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 4
+Rodzaj bieg³oœci: w³ócznia 
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
+@364  = ~Bo~
+@365  = ~Mistrzowskie bo~
+@366  = ~Najprostsza i najskromniejsza broñ drzewcowa – kij bo – to kawa³ek drewna o d³ugoœci od szeœciu do dziewiêciu stóp. Mistrzowskie bo wykonywane s¹ z mocnego dêbu i maj¹ metalowe okucia na obu koñcach. Bo nale¿y dzier¿yæ obur¹cz.
+
+PARAMETRY:
+
+Obra¿enia: 1k10 +1
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 6
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 4~
+@367  = ~Bo +1~
+@368  = ~Najprostsza i najskromniejsza broñ drzewcowa – kij bo – to kawa³ek drewna o d³ugoœci od szeœciu do dziewiêciu stóp. Mistrzowskie bo wykonywane s¹ z mocnego dêbu i maj¹ metalowe okucia na obu koñcach. Bo nale¿y dzier¿yæ obur¹cz.
+
+PARAMETRY:
+
+Obra¿enia: 1k10 +1
+TraK0: +1
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 6
+Rodzaj bieg³oœci: kij
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 4~
+@369  = ~Katana~
+@370  = ~Mistrzowska katana~
+@371  = ~Katana to jednosieczny, lekko zakrzywiony miecz zakoñczony œciêtym sztychem. Uwa¿ana jest za jeden z najdoskonalszych mieczy, jakie kiedykolwiek stworzono – proces jej powstawania jest d³ugi, sekretny i bardziej przypomina sztukê ni¿ rzemios³o. Ostrze to odgrywa wa¿n¹ rolê w kulturze Kara-Tur. Dotkniêcie lub dzier¿enie katany samuraja jest zniewag¹ i natychmiast wywo³uje jego gniew. Dla gaijina, cudzoziemca, posiadanie takiej broni to rzadkoœæ – albo jest wielce zaszczyconym przyjacielem wp³ywowego urzêdnika, albo zamordowa³ samuraja.
+
+PARAMETRY:
+
+Obra¿enia: 1k10 +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 6~
+@372  = ~Katana +1~
+@373  = ~Katana to jednosieczny, lekko zakrzywiony miecz zakoñczony œciêtym sztychem. Uwa¿ana jest za jeden z najdoskonalszych mieczy, jakie kiedykolwiek stworzono – proces jej powstawania jest d³ugi, sekretny i bardziej przypomina sztukê ni¿ rzemios³o. Ostrze to odgrywa wa¿n¹ rolê w kulturze Kara-Tur. Dotkniêcie lub dzier¿enie katany samuraja jest zniewag¹ i natychmiast wywo³uje jego gniew. Dla gaijina, cudzoziemca, posiadanie takiej broni to rzadkoœæ – albo jest wielce zaszczyconym przyjacielem wp³ywowego urzêdnika, albo zamordowa³ samuraja.
+
+PARAMETRY:
+
+Obra¿enia: 1k10 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 6~
+@374  = ~Wakizashi~
+@375  = ~Mistrzowskie wakizashi~
+@376  = ~Wakizashi, czyli „miecz towarzysz¹cy”, jest dla samuraja niezwykle wa¿ny. Nosi siê go ca³y czas, nawet wewn¹trz budynków, a noc¹ spoczywa tu¿ obok w³aœciciela. To ostrze, dorównuj¹ce kunsztem katanie, jest krótsze – mierzy zwykle od dwunastu do dwudziestu czterech cali – i w rêkach wprawnego wojownika staje siê œmiertelnie niebezpieczn¹ broni¹.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 3
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
+@377  = ~Wakizashi +1~
+@378  = ~Wakizashi, czyli „miecz towarzysz¹cy”, jest dla samuraja niezwykle wa¿ny. Nosi siê go ca³y czas, nawet wewn¹trz budynków, a noc¹ spoczywa tu¿ obok w³aœciciela. To ostrze, dorównuj¹ce kunsztem katanie, jest krótsze – mierzy zwykle od dwunastu do dwudziestu czterech cali – i w rêkach wprawnego wojownika staje siê œmiertelnie niebezpieczn¹ broni¹.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 3
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
+@379  = ~Ninja-to~
+@380  = ~Mistrzowskie ninja-to~
+@381  = ~Miecz ninja, ninja-to, uchodzi za broñ ni¿szej jakoœci ni¿ inne kara-turañskie ostrza, takie jak katana. Jest krótszy i ma prost¹ klingê, co czyni go idealnym narzêdziem do dzia³añ skrytych. W ciasnych przestrzeniach ninja-to potrafi daæ przewagê nad d³u¿szymi mieczami samurajów.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 5~
+@382  = ~Ninja-to +1~
+@383  = ~Miecz ninja, ninja-to, uchodzi za broñ ni¿szej jakoœci ni¿ inne kara-turañskie ostrza, takie jak katana. Jest krótszy i ma prost¹ klingê, co czyni go idealnym narzêdziem do dzia³añ skrytych. W ciasnych przestrzeniach ninja-to potrafi daæ przewagê nad d³u¿szymi mieczami samurajów.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: sejmitar/wakizashi/ninja-to
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 5~
+@384  = ~No-dachi~
+@385  = ~Mistrzowskie no-dachi~
+@386  = ~Miecz no-dachi wywodzi siê z katany. Kara-turañscy p³atnerze zawsze szukali sposobów ulepszania istniej¹cych broni. W ramach eksperymentów wyd³u¿ono klingê katany, a z czasem równie¿ rêkojeœæ, tak ¿e do w³aœciwego prowadzenia ostrza potrzebne sta³y siê obie d³onie. No-dachi s³u¿y g³ównie do œcinania jeŸdŸców z siode³ i rozbijania szyków w³óczników. Ten egzemplarz wyj¹tkowo dobrze spe³nia to zadanie, gdy¿ zosta³ wykonany mistrzowsko.
+
+PARAMETRY:
+
+Obra¿enia: 2k8 +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 3
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 14
+
+Waga: 12~
+@387  = ~No-dachi +1~
+@388  = ~Miecz no-dachi wywodzi siê z katany. Kara-turañscy p³atnerze zawsze szukali sposobów ulepszania istniej¹cych broni. W ramach eksperymentów wyd³u¿ono klingê katany, a z czasem równie¿ rêkojeœæ, tak ¿e do w³aœciwego prowadzenia ostrza potrzebne sta³y siê obie d³onie. No-dachi s³u¿y g³ównie do œcinania jeŸdŸców z siode³ i rozbijania szyków w³óczników. Ten egzemplarz jest szczególnie skuteczny, poniewa¿ zosta³ dodatkowo nasycony magi¹.
+
+PARAMETRY:
+
+Obra¿enia: 2k8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 3
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 14
+
+Waga: 12~
+@389  = ~Shuriken, „miecz ukryty w d³oni”, to tradycyjna, skryta broñ Kara-Tur, zwykle u¿ywana do rzucania. S¹ to zaostrzone, podrêczne ostrza wykonywane z rozmaitych, codziennych przedmiotów – igie³, gwoŸdzi, no¿y, monet, podk³adek i innych p³askich kawa³ków metalu. Nazwa „shuriken” odnosi siê do ka¿dego niewielkiego ostrza tego typu i najczêœciej kojarzona jest ze znan¹ „gwiazd¹ do rzucania”.
+
+PARAMETRY:
+
+Obra¿enia: 1k2 +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: strza³ka
+Typ broni: 1-rêczna
+
+Waga: 1~
+@390  = ~Shuriken, „miecz ukryty w d³oni”, to tradycyjna, skryta broñ Kara-Tur, zwykle u¿ywana do rzucania. S¹ to zaostrzone, podrêczne ostrza wykonywane z rozmaitych, codziennych przedmiotów – igie³, gwoŸdzi, no¿y, monet, podk³adek i innych p³askich kawa³ków metalu. Nazwa „shuriken” odnosi siê do ka¿dego niewielkiego ostrza tego typu i najczêœciej kojarzona jest ze znan¹ „gwiazd¹ do rzucania”.
+
+PARAMETRY:
+
+Obra¿enia: 1k2 +1
+TraK0: +1
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: strza³ka
+Typ broni: 1-rêczna
+
+Waga: 1~
+@391  = ~Trójz¹b przeszywaj¹cy~
+@392  = ~Na koñcu tej w³óczni osadzono potrójny grot, znany jako trójz¹b. Ostre zêby broni sprawiaj¹, ¿e znacznie czêœciej zadaje ona trafienia krytyczne ni¿ inne w³ócznie.
+
+PARAMETRY:
+
+Specjalne:
+– Zakres trafieñ krytycznych dla tej broni wynosi 17-20.
+
+Obra¿enia: 1k10 +2
+TraK0: +2
+Typ obra¿eñ: k³ute
+OpóŸnienie: 4
+Rodzaj bieg³oœci: w³ócznia 
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
+@393  = ~Zguba ronina~
+@394  = ~Tego no-dachi u¿ywa³ s³ynny samuraj, który polowa³ na roninów ze swego zakonu. Miecz zapewnia potê¿n¹ si³ê ofensywn¹, a jednoczeœnie zwiêksza ochronê w³aœciciela.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+
+Obra¿enia: 2k8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+OpóŸnienie: 3
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 14
+
+Waga: 12~
+@395  = ~Shuriken ninja z Shou~
+@396  = ~Jak ten rzadki przedmiot trafi³ z Kara-Tur na Wybrze¿e Mieczy, pozostaje tajemnic¹. Wiadomo jednak, ¿e takie shurikeny wrêcza siê ninja z Shou na potrzeby szczególnie wa¿nych misji. Nawet przeciêtny cz³owiek mo¿e rzucaæ tymi pociskami z du¿¹ celnoœci¹ i szybkoœci¹.
+
+PARAMETRY:
+
+Specjalne:
+– Powraca do rêki w³aœciciela
+– Posiadacz mo¿e rzucaæ nim 3 razy na rundê  
+– Dodaje premiê z Si³y (jeœli jest) do obra¿eñ
+– 3% szans na og³uszenie celu na okres 5 sekund
+
+Obra¿enia: 1k2 +4
+TraK0: +2
+Typ obra¿eñ: k³ute
+OpóŸnienie: 0
+Rodzaj bieg³oœci: strza³ka
+Typ broni: 1-rêczna
+
+Waga: 1~
+@397  = ~Kamienne oko~
+@398  = ~Lewe oko Genzou~
+@399  = ~Genzou urodzi³ siê œlepy. Jako dziecko by³ wyœmiewany, bity, a w koñcu porzucony na pewn¹ œmieræ. OdnaleŸli go mnisi z pobliskiego klasztoru, przygarnêli i wyszkolili. Szybko sta³ siê mistrzem walki bez wzroku i ostatecznie zosta³ g³ównym nauczycielem sztuk walki w swoim zakonie. Legenda g³osi, ¿e to kamienne oko jest w istocie jego prawdziwym lewym okiem. Noszone na g³owie pocz¹tkowo oœlepia, lecz dziêki zaufaniu i treningowi wzrok nosz¹cego z czasem przewy¿sza zwyk³e mo¿liwoœci. Æwiczenie sztuk walki i przelewanie krwi odblokowuje kolejne moce. Plotka g³osi, ¿e jeœli lewe i prawe oko za³o¿y siê jednoczeœnie, nosiciel zyska wszystkie legendarne zdolnoœci Genzou.
+
+Ranga I
+
+PARAMETRY:
+
+Specjalne:
+– Œlepota: -4 do TraK0, +4 do Klasy Pancerza, ograniczone pole widzenia i zmniejszona szybkoœæ ruchu  
+– Zrêcznoœæ: -1  
+– Ochrona przed wszystkimi rodzajami ataków wzrokowych~
+@400  = ~Genzou urodzi³ siê œlepy. Jako dziecko by³ wyœmiewany, bity, a w koñcu porzucony na pewn¹ œmieræ. OdnaleŸli go mnisi z pobliskiego klasztoru, przygarnêli i wyszkolili. Szybko sta³ siê mistrzem walki bez wzroku i ostatecznie zosta³ g³ównym nauczycielem sztuk walki w swoim zakonie. Legenda g³osi, ¿e to kamienne oko jest w istocie jego prawdziwym lewym okiem. Noszone na g³owie pocz¹tkowo oœlepia, lecz dziêki zaufaniu i treningowi wzrok nosz¹cego z czasem przewy¿sza zwyk³e mo¿liwoœci. Æwiczenie sztuk walki i przelewanie krwi odblokowuje kolejne moce. Plotka g³osi, ¿e jeœli lewe i prawe oko za³o¿y siê jednoczeœnie, nosiciel zyska wszystkie legendarne zdolnoœci Genzou.
+
+Ranga II
+
+PARAMETRY:
+
+Specjalne:
+– L¿ejsza œlepota: -2 do TraK0, +2 do Klasy Pancerza  
+– Ochrona przed wszystkimi rodzajami ataków wzrokowych  
+– Wêdruj¹ce oko, raz dziennie (Oko czarodzieja)~
+@401  = ~Genzou urodzi³ siê œlepy. Jako dziecko by³ wyœmiewany, bity, a w koñcu porzucony na pewn¹ œmieræ. OdnaleŸli go mnisi z pobliskiego klasztoru, przygarnêli i wyszkolili. Szybko sta³ siê mistrzem walki bez wzroku i ostatecznie zosta³ g³ównym nauczycielem sztuk walki w swoim zakonie. Legenda g³osi, ¿e to kamienne oko jest w istocie jego prawdziwym lewym okiem. Noszone na g³owie pocz¹tkowo oœlepia, lecz dziêki zaufaniu i treningowi wzrok nosz¹cego z czasem przewy¿sza zwyk³e mo¿liwoœci. Æwiczenie sztuk walki i przelewanie krwi odblokowuje kolejne moce. Plotka g³osi, ¿e jeœli lewe i prawe oko za³o¿y siê jednoczeœnie, nosiciel zyska wszystkie legendarne zdolnoœci Genzou.
+
+Ranga III
+
+PARAMETRY:
+
+Specjalne:
+– Œlepowzrocznoœæ  
+– Zrêcznoœæ: +1  
+– Ochrona przed wszystkimi rodzajami ataków wzrokowych  
+– Wêdruj¹ce oko, raz dziennie (Oko czarodzieja)  
+– Œlepy cios, raz dziennie: przez 5 sekund ka¿de trafienie jest trafieniem krytycznym~
+@402  = ~Genzou urodzi³ siê œlepy. Jako dziecko by³ wyœmiewany, bity, a w koñcu porzucony na pewn¹ œmieræ. OdnaleŸli go mnisi z pobliskiego klasztoru, przygarnêli i wyszkolili. Szybko sta³ siê mistrzem walki bez wzroku i ostatecznie zosta³ g³ównym nauczycielem sztuk walki w swoim zakonie. Legenda g³osi, ¿e to kamienne oko jest w istocie jego prawdziwym lewym okiem. Noszone na g³owie pocz¹tkowo oœlepia, lecz dziêki zaufaniu i treningowi wzrok nosz¹cego z czasem przewy¿sza zwyk³e mo¿liwoœci. Æwiczenie sztuk walki i przelewanie krwi odblokowuje kolejne moce. Plotka g³osi, ¿e jeœli lewe i prawe oko za³o¿y siê jednoczeœnie, nosiciel zyska wszystkie legendarne zdolnoœci Genzou.
+
+Ranga IV
+
+PARAMETRY:
+
+Specjalne:
+– Œlepowzrocznoœæ  
+– Infrawizja  
+– Zrêcznoœæ: +1  
+– M¹droœæ: +1  
+– Ochrona przed wszystkimi rodzajami ataków wzrokowych  
+– Wêdruj¹ce oko, dwa razy dziennie (Oko czarodzieja)  
+– Œlepy cios, dwa razy dziennie: przez 5 sekund ka¿de trafienie jest trafieniem krytycznym~
+@403  = ~Lewe oko Genzou I~
+@404  = ~Lewe oko Genzou II~
+@405  = ~Lewe oko Genzou III~
+@406  = ~Sklep z Kara-Tur~
+@407  = ~Sklep Skromnej Trójki~
+@408  = ~Œlepy cios~
